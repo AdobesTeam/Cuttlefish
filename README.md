@@ -1,2 +1,4 @@
 # Cuttlefish
-a media  player
+A media  player.
+
+Aim to support local or remote video.

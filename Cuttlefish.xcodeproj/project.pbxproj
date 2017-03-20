@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF51EEE81E7F9DBB008693F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF51EEE71E7F9DBB008693F7 /* main.m */; };
+		CF51EEEB1E7F9DBB008693F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF51EEEA1E7F9DBB008693F7 /* AppDelegate.m */; };
+		CF51EEEE1E7F9DBB008693F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF51EEED1E7F9DBB008693F7 /* ViewController.m */; };
+		CF51EEF11E7F9DBB008693F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF51EEEF1E7F9DBB008693F7 /* Main.storyboard */; };
+		CF51EEF31E7F9DBB008693F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF51EEF21E7F9DBB008693F7 /* Assets.xcassets */; };
+		CF51EEF61E7F9DBB008693F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF51EEF41E7F9DBB008693F7 /* LaunchScreen.storyboard */; };
+		CF51EF011E7F9DBC008693F7 /* CuttlefishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF51EF001E7F9DBC008693F7 /* CuttlefishTests.m */; };
+		CF51EF0C1E7F9DBC008693F7 /* CuttlefishUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF51EF0B1E7F9DBC008693F7 /* CuttlefishUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF51EEFD1E7F9DBC008693F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF51EEDB1E7F9DBB008693F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF51EEE21E7F9DBB008693F7;
+			remoteInfo = Cuttlefish;
+		};
+		CF51EF081E7F9DBC008693F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF51EEDB1E7F9DBB008693F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF51EEE21E7F9DBB008693F7;
+			remoteInfo = Cuttlefish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF51EEE31E7F9DBB008693F7 /* Cuttlefish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cuttlefish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF51EEE71E7F9DBB008693F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF51EEE91E7F9DBB008693F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF51EEEA1E7F9DBB008693F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF51EEEC1E7F9DBB008693F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF51EEED1E7F9DBB008693F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF51EEF01E7F9DBB008693F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF51EEF21E7F9DBB008693F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF51EEF51E7F9DBB008693F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF51EEF71E7F9DBB008693F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF51EEFC1E7F9DBC008693F7 /* CuttlefishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuttlefishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF51EF001E7F9DBC008693F7 /* CuttlefishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CuttlefishTests.m; sourceTree = "<group>"; };
+		CF51EF021E7F9DBC008693F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF51EF071E7F9DBC008693F7 /* CuttlefishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuttlefishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF51EF0B1E7F9DBC008693F7 /* CuttlefishUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CuttlefishUITests.m; sourceTree = "<group>"; };
+		CF51EF0D1E7F9DBC008693F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF51EEE01E7F9DBB008693F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF51EEF91E7F9DBC008693F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF51EF041E7F9DBC008693F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF51EEDA1E7F9DBB008693F7 = {
+			isa = PBXGroup;
+			children = (
+				CF51EEE51E7F9DBB008693F7 /* Cuttlefish */,
+				CF51EEFF1E7F9DBC008693F7 /* CuttlefishTests */,
+				CF51EF0A1E7F9DBC008693F7 /* CuttlefishUITests */,
+				CF51EEE41E7F9DBB008693F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF51EEE41E7F9DBB008693F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF51EEE31E7F9DBB008693F7 /* Cuttlefish.app */,
+				CF51EEFC1E7F9DBC008693F7 /* CuttlefishTests.xctest */,
+				CF51EF071E7F9DBC008693F7 /* CuttlefishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF51EEE51E7F9DBB008693F7 /* Cuttlefish */ = {
+			isa = PBXGroup;
+			children = (
+				CF51EEE91E7F9DBB008693F7 /* AppDelegate.h */,
+				CF51EEEA1E7F9DBB008693F7 /* AppDelegate.m */,
+				CF51EEEC1E7F9DBB008693F7 /* ViewController.h */,
+				CF51EEED1E7F9DBB008693F7 /* ViewController.m */,
+				CF51EEEF1E7F9DBB008693F7 /* Main.storyboard */,
+				CF51EEF21E7F9DBB008693F7 /* Assets.xcassets */,
+				CF51EEF41E7F9DBB008693F7 /* LaunchScreen.storyboard */,
+				CF51EEF71E7F9DBB008693F7 /* Info.plist */,
+				CF51EEE61E7F9DBB008693F7 /* Supporting Files */,
+			);
+			path = Cuttlefish;
+			sourceTree = "<group>";
+		};
+		CF51EEE61E7F9DBB008693F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF51EEE71E7F9DBB008693F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF51EEFF1E7F9DBC008693F7 /* CuttlefishTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF51EF001E7F9DBC008693F7 /* CuttlefishTests.m */,
+				CF51EF021E7F9DBC008693F7 /* Info.plist */,
+			);
+			path = CuttlefishTests;
+			sourceTree = "<group>";
+		};
+		CF51EF0A1E7F9DBC008693F7 /* CuttlefishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF51EF0B1E7F9DBC008693F7 /* CuttlefishUITests.m */,
+				CF51EF0D1E7F9DBC008693F7 /* Info.plist */,
+			);
+			path = CuttlefishUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF51EEE21E7F9DBB008693F7 /* Cuttlefish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF51EF101E7F9DBC008693F7 /* Build configuration list for PBXNativeTarget "Cuttlefish" */;
+			buildPhases = (
+				CF51EEDF1E7F9DBB008693F7 /* Sources */,
+				CF51EEE01E7F9DBB008693F7 /* Frameworks */,
+				CF51EEE11E7F9DBB008693F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cuttlefish;
+			productName = Cuttlefish;
+			productReference = CF51EEE31E7F9DBB008693F7 /* Cuttlefish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF51EEFB1E7F9DBC008693F7 /* CuttlefishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF51EF131E7F9DBC008693F7 /* Build configuration list for PBXNativeTarget "CuttlefishTests" */;
+			buildPhases = (
+				CF51EEF81E7F9DBC008693F7 /* Sources */,
+				CF51EEF91E7F9DBC008693F7 /* Frameworks */,
+				CF51EEFA1E7F9DBC008693F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF51EEFE1E7F9DBC008693F7 /* PBXTargetDependency */,
+			);
+			name = CuttlefishTests;
+			productName = CuttlefishTests;
+			productReference = CF51EEFC1E7F9DBC008693F7 /* CuttlefishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF51EF061E7F9DBC008693F7 /* CuttlefishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF51EF161E7F9DBC008693F7 /* Build configuration list for PBXNativeTarget "CuttlefishUITests" */;
+			buildPhases = (
+				CF51EF031E7F9DBC008693F7 /* Sources */,
+				CF51EF041E7F9DBC008693F7 /* Frameworks */,
+				CF51EF051E7F9DBC008693F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF51EF091E7F9DBC008693F7 /* PBXTargetDependency */,
+			);
+			name = CuttlefishUITests;
+			productName = CuttlefishUITests;
+			productReference = CF51EF071E7F9DBC008693F7 /* CuttlefishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF51EEDB1E7F9DBB008693F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JoySeeDog;
+				TargetAttributes = {
+					CF51EEE21E7F9DBB008693F7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GD9P546353;
+						ProvisioningStyle = Automatic;
+					};
+					CF51EEFB1E7F9DBC008693F7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GD9P546353;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF51EEE21E7F9DBB008693F7;
+					};
+					CF51EF061E7F9DBC008693F7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GD9P546353;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF51EEE21E7F9DBB008693F7;
+					};
+				};
+			};
+			buildConfigurationList = CF51EEDE1E7F9DBB008693F7 /* Build configuration list for PBXProject "Cuttlefish" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF51EEDA1E7F9DBB008693F7;
+			productRefGroup = CF51EEE41E7F9DBB008693F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF51EEE21E7F9DBB008693F7 /* Cuttlefish */,
+				CF51EEFB1E7F9DBC008693F7 /* CuttlefishTests */,
+				CF51EF061E7F9DBC008693F7 /* CuttlefishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF51EEE11E7F9DBB008693F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF51EEF61E7F9DBB008693F7 /* LaunchScreen.storyboard in Resources */,
+				CF51EEF31E7F9DBB008693F7 /* Assets.xcassets in Resources */,
+				CF51EEF11E7F9DBB008693F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF51EEFA1E7F9DBC008693F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF51EF051E7F9DBC008693F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF51EEDF1E7F9DBB008693F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF51EEEE1E7F9DBB008693F7 /* ViewController.m in Sources */,
+				CF51EEEB1E7F9DBB008693F7 /* AppDelegate.m in Sources */,
+				CF51EEE81E7F9DBB008693F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF51EEF81E7F9DBC008693F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF51EF011E7F9DBC008693F7 /* CuttlefishTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF51EF031E7F9DBC008693F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF51EF0C1E7F9DBC008693F7 /* CuttlefishUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF51EEFE1E7F9DBC008693F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF51EEE21E7F9DBB008693F7 /* Cuttlefish */;
+			targetProxy = CF51EEFD1E7F9DBC008693F7 /* PBXContainerItemProxy */;
+		};
+		CF51EF091E7F9DBC008693F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF51EEE21E7F9DBB008693F7 /* Cuttlefish */;
+			targetProxy = CF51EF081E7F9DBC008693F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF51EEEF1E7F9DBB008693F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF51EEF01E7F9DBB008693F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF51EEF41E7F9DBB008693F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF51EEF51E7F9DBB008693F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF51EF0E1E7F9DBC008693F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF51EF0F1E7F9DBC008693F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF51EF111E7F9DBC008693F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GD9P546353;
+				INFOPLIST_FILE = Cuttlefish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.Cuttlefish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF51EF121E7F9DBC008693F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GD9P546353;
+				INFOPLIST_FILE = Cuttlefish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.Cuttlefish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF51EF141E7F9DBC008693F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GD9P546353;
+				INFOPLIST_FILE = CuttlefishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.CuttlefishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cuttlefish.app/Cuttlefish";
+			};
+			name = Debug;
+		};
+		CF51EF151E7F9DBC008693F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GD9P546353;
+				INFOPLIST_FILE = CuttlefishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.CuttlefishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cuttlefish.app/Cuttlefish";
+			};
+			name = Release;
+		};
+		CF51EF171E7F9DBC008693F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GD9P546353;
+				INFOPLIST_FILE = CuttlefishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.CuttlefishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cuttlefish;
+			};
+			name = Debug;
+		};
+		CF51EF181E7F9DBC008693F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GD9P546353;
+				INFOPLIST_FILE = CuttlefishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.CuttlefishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cuttlefish;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF51EEDE1E7F9DBB008693F7 /* Build configuration list for PBXProject "Cuttlefish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF51EF0E1E7F9DBC008693F7 /* Debug */,
+				CF51EF0F1E7F9DBC008693F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF51EF101E7F9DBC008693F7 /* Build configuration list for PBXNativeTarget "Cuttlefish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF51EF111E7F9DBC008693F7 /* Debug */,
+				CF51EF121E7F9DBC008693F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF51EF131E7F9DBC008693F7 /* Build configuration list for PBXNativeTarget "CuttlefishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF51EF141E7F9DBC008693F7 /* Debug */,
+				CF51EF151E7F9DBC008693F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF51EF161E7F9DBC008693F7 /* Build configuration list for PBXNativeTarget "CuttlefishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF51EF171E7F9DBC008693F7 /* Debug */,
+				CF51EF181E7F9DBC008693F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF51EEDB1E7F9DBB008693F7 /* Project object */;
+}

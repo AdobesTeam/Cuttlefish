@@ -2,7 +2,11 @@
 
 ------
 
+<div align=center>
+
 [![title](https://github.com/CuttlefishDevelopGroup/Cuttlefish/blob/master/readmeimage/fish.jpeg)](https://github.com/CuttlefishDevelopGroup/Cuttlefish/blob/master/readmeimage/fish.jpeg)
+
+</div>
 
 A media  player.
 
